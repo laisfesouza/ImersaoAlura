@@ -1,0 +1,12 @@
+var nome = "Lais"
+var notaPrimeiroBimestre = 9
+var notaSegundoBimestre = 5
+var notaTerceiroBimestre = 7
+var notaQuartoBimestre = 10
+
+var notaFinal = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre + notaQuartoBimestre) / 4
+
+var notaFixada = notaFinal.toFixed(0)
+
+console.log("Bem vindo " + nome)
+console.log(notaFinal)
